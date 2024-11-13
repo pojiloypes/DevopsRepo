@@ -33,5 +33,7 @@ jobs:
 
 
 test-image:
-  - run: sleep 11- run: docker ps-a
-  - run: sleep 11- run: 'curl 127.0.0.1:8000'
+  - run: sleep 11
+  - run: docker ps-a
+  - run: sleep 11
+  - run: 'curl 127.0.0.1:8000'
