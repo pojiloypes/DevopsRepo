@@ -12,4 +12,4 @@ RUN chown -R runner:runner /usr/local/http-server/
 
 EXPOSE 8000
 USER runner
-CMD ["python3", "-u", "/usr/local/http-server/application.py"]
+CMD ["python3", "-u", "/usr/local/server/application.py"]
