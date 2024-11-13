@@ -31,10 +31,7 @@ jobs:
     - run: docker build-t test-image ./server--file ./server/dockerfile
     - run: docker run-d--name app-server8000-p 8000:8000--restart unless-stopped
 
-<<<<<<< Updated upstream
+
 test-image
-=======
-test-image:
->>>>>>> Stashed changes
   - run: sleep 11- run: docker ps-a
   - run: sleep 11- run: 'curl 127.0.0.1:8000'
